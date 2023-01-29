@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* won style */
+.card{
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+  background-color: #282c34;
+}
+.btn{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  width: 5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover{
+  background-color: orange;
+}
+.sectionGrid{
+  display: grid;
+}
+
+@media screen and (min-width: 600px) {
+  .sectionGrid{
+    grid-template-columns: auto auto;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  .sectionGrid{
+    grid-template-columns: auto auto auto;
+  }
+  
+}
+/* @media screen and (min-width: 992px) {
+  .sectionGrid{
+    grid-template-columns: auto auto auto auto;
+  }
+  
+} */
