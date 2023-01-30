@@ -60,6 +60,12 @@
   display: grid;
 }
 
+input{
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
 @media screen and (min-width: 600px) {
   .sectionGrid{
     grid-template-columns: auto auto;
